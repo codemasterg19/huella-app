@@ -1,9 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import LoginScreen from './src/auth/LoginScreen';
+import 'react-native-gesture-handler';
+
+
+import AppNavigator from './src/app/AppNavigator';
 
 export default function App() {
-  return <LoginScreen />;
+  return <AppNavigator/>;
 }
 
 
